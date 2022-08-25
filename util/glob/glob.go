@@ -13,3 +13,4 @@ func Match(pattern, text string, separators ...rune) bool {
 	}
 	return compiledGlob.Match(text)
 }
+
